@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-Browser Homepage</title>
+    <link rel="stylesheet" href="release.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <div id="left-column">
+            <div id="software-info">
+                <h1 id="software-name">Software Name</h1>
+                <p id="software-description">Short Description of the Software</p>
+            </div>
+            <div id="readme">
+                <iframe src="README.html"></iframe>
+            </div>
+        </div>
+        <div id="right-column">
+            <h2>Releases</h2>
+            <ul id="release-bar">
+                <li><button id="latest-release">Latest Release</button></li>
+                <!-- Additional releases will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- New Footer Section -->
+    <footer id="footer">
+        <p>&copy; 2024 Daniel McGuire Corporation | <a href="https://daniel-mcguire-corporation.github.io/Simple-BrowserCS/" target="_blank">GitHub</a></p>
+    </footer>
+    <script src="readme.js"></script>
+</body>
+</html>
