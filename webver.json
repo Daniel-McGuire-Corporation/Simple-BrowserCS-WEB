@@ -3,7 +3,7 @@
     "description": "Replace this with a description",
     "latest": {
         "version": "",
-        "url": "latest"
+        "url": "2.4.0"
     },
     "previous": [
         {
@@ -11,15 +11,15 @@
             "url": "2.6.0"
         },
         {
-            "version": "SB24Q3-1",
+            "version": "SB24Q3-1-beta",
             "url": "2.5.1"
         },
         {
-            "version": "SB24Q3",
+            "version": "SB24Q3-beta",
             "url": "2.5.0"
         },
         {
-            "version": "RECOMMENDED: SB24Q2",
+            "version": "SB24Q2",
             "url": "2.4.0"
         },
         {
