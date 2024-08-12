@@ -1,6 +1,6 @@
 {
     "name": "Simple Browser",
-    "description": "Replace this with a description",
+    "description": "Lightweight, user-friendly web browser",
     "latest": {
         "version": "",
         "url": "2.4.0"
