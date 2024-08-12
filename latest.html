@@ -20,13 +20,13 @@
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            fetch('versions.json')
+            fetch('json/versions.json')
                 .then(response => response.json())
                 .then(versions => {
                     if (Array.isArray(versions) && versions.length > 0) {
                         // Assume the latest version is the last in the list
                         const latestVersion = versions[versions.length - 1];
-                        window.location.href = latestVersion;
+                        window.location.href = `release/${latestVersion}`;
                     } else {
                         document.body.innerHTML = '<p>No versions available.</p>';
                     }
