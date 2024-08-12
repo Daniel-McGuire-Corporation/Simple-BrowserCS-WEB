@@ -1,1 +1,0 @@
-This is the template for creating a download page.
