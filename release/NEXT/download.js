@@ -54,6 +54,12 @@ function downloadWindows() {
     });
 }
 
+function downloadOSX() {
+    showCountdownPopup(() => {
+        window.location.href = "../404.html"; // Replace with your actual Windows download URL
+    });
+}
+
 function showComingSoon() {
     document.getElementById("comingSoonPopup").style.display = "block";
 }

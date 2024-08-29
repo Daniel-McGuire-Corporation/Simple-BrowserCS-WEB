@@ -48,6 +48,12 @@ function startLinuxDownload(version) {
     });
 }
 
+function downloadOSX() {
+    showCountdownPopup(() => {
+        window.location.href = "https://github.com/Daniel-McGuire-Corporation/Simple-BrowserCS/releases/download/v2.6.0.5/SimpleBrowser.dmg"; // Replace with your actual Windows download URL
+    });
+}
+
 function downloadWindows() {
     showCountdownPopup(() => {
         window.location.href = "https://github.com/Daniel-McGuire-Corporation/Simple-BrowserCS/releases/download/v2.4.0.0/SimpleBrowserSetup.exe"; // Replace with your actual Windows download URL

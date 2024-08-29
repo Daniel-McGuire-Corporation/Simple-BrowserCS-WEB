@@ -54,6 +54,12 @@ function downloadWindows() {
     });
 }
 
+function downloadOSX() {
+    showCountdownPopup(() => {
+        window.location.href = "https://github.com/Daniel-McGuire-Corporation/Simple-BrowserCS/releases/download/v2.6.0.5/SimpleBrowser.dmg"; // Replace with your actual Windows download URL
+    });
+}
+
 function showComingSoon() {
     document.getElementById("comingSoonPopup").style.display = "block";
 }
